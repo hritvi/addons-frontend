@@ -245,6 +245,7 @@ export const GLOBAL_EVENT_STATUS_MAP = {
   onUninstalled: UNINSTALLED,
   onEnabling: ENABLING,
   onDisabling: DISABLING,
+  onOperationCancelled: INSTALLED,
 };
 
 // The events here are set directly on mozAddonManager
